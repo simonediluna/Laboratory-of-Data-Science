@@ -1,0 +1,4 @@
+Config:
+- Windows 11
+- VS 2019 version 16.11.27
+- SQL Server Integration Services Projects version 4.4

@@ -1,0 +1,202 @@
+***********************cpu************************
+cpu_code:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 1664,
+	missing values (encodings): set(),
+	# missing values: 0
+
+brand:
+	type: <class 'str'>,
+	min length: 3,
+	max length: 5,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+series:
+	type: <class 'str'>,
+	min length: 6,
+	max length: 20,
+	string encoding: ASCII,
+	missing values (encodings): {'Unknown'},
+	# missing values: 1
+
+name:
+	type: <class 'str'>,
+	min length: 10,
+	max length: 31,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+n_cores:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 288,
+	missing values (encodings): set(),
+	# missing values: 0
+
+socket:
+	type: <class 'str'>,
+	min length: 12,
+	max length: 22,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+***********************fact***********************
+Id:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 7422,
+	missing values (encodings): set(),
+	# missing values: 0
+
+gpu_code:
+	type: <class 'float'>,
+	min value: 1.0,
+	max value: 2054.0,
+	missing values (encodings): {''},
+	# missing values: 5017522
+
+cpu_code:
+	type: <class 'float'>,
+	min value: 1.0,
+	max value: 1664.0,
+	missing values (encodings): {''},
+	# missing values: 4409487
+
+ram_code:
+	type: <class 'float'>,
+	min value: 1.0,
+	max value: 3704.0,
+	missing values (encodings): {''},
+	# missing values: 2602347
+
+time_code:
+	type: <class 'int'>,
+	min value: 20130322,
+	max value: 20180412,
+	missing values (encodings): set(),
+	# missing values: 0
+
+geo_code:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 75,
+	missing values (encodings): set(),
+	# missing values: 0
+
+vendor_code:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 81,
+	missing values (encodings): set(),
+	# missing values: 0
+
+sales_uds:
+	type: <class 'float'>,
+	min value: 0.7050644781000001,
+	max value: 15741338.312843358,
+	missing values (encodings): set(),
+	# missing values: 0
+
+sales_currency:
+	type: <class 'float'>,
+	min value: 0.5,
+	max value: 9999999.99,
+	missing values (encodings): set(),
+	# missing values: 0
+
+********************geography*********************
+geo_code:
+	type: <class 'int'>,
+	min value: 0,
+	max value: 75,
+	missing values (encodings): set(),
+	# missing values: 0
+
+continent:
+	type: <class 'str'>,
+	min length: 6,
+	max length: 7,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+country:
+	type: <class 'str'>,
+	min length: 5,
+	max length: 24,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+region:
+	type: <class 'str'>,
+	min length: 5,
+	max length: 25,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+currency:
+	type: <class 'str'>,
+	min length: 3,
+	max length: 3,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0
+
+***********************time***********************
+time_code:
+	type: <class 'int'>,
+	min value: 20130322,
+	max value: 20180413,
+	missing values (encodings): set(),
+	# missing values: 0
+
+year:
+	type: <class 'int'>,
+	min value: 2013,
+	max value: 2018,
+	missing values (encodings): set(),
+	# missing values: 0
+
+month:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 12,
+	missing values (encodings): set(),
+	# missing values: 0
+
+day:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 31,
+	missing values (encodings): set(),
+	# missing values: 0
+
+week:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 53,
+	missing values (encodings): set(),
+	# missing values: 0
+
+**********************vendor**********************
+vendor_code:
+	type: <class 'int'>,
+	min value: 1,
+	max value: 81,
+	missing values (encodings): set(),
+	# missing values: 0
+
+name:
+	type: <class 'str'>,
+	min length: 3,
+	max length: 25,
+	string encoding: ASCII,
+	missing values (encodings): set(),
+	# missing values: 0

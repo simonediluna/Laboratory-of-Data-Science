@@ -1,0 +1,552 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f138580f-3b7e-4638-9d50-9f0e5d3e1626" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CPU Sales</ID>
+  <Name>CPU Sales</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-12464" scrolltop="-1507" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30665" y="21855" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="time_by_day" left="5433" top="13214" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3228" height="4604" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009c0c0000fc110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_time_by_day" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vendor" left="-60" top="7452" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_vendor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="cpu_sales_fact" left="5420" top="6395" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3096" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000180c000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_cpu_sales_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="cpu_product" left="5468" top="0" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_cpu_product" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="geography" left="10916" top="6818" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_geography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6648" top="10514" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_cpu_sales_fact_time_by_day]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7047" y="13214" />
+              <point x="7047" y="12014" />
+              <point x="6968" y="12014" />
+              <point x="6968" y="10814" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2640" top="7654" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3080" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_cpu_sales_fact_vendor]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="11" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2940" y="8053" />
+              <point x="4180" y="8053" />
+              <point x="4180" y="8054" />
+              <point x="5420" y="8054" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6569" top="3496" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_cpu_sales_fact_cpu_product]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6968" y="3995" />
+              <point x="6968" y="6395" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8216" top="8205" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_cpu_sales_fact_geography]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="16" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10916" y="8604" />
+              <point x="8516" y="8604" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-12464</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1507</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-60</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="92601259-9a72-4d74-a044-dc7afd997b8c">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8fd12b29-5963-4b64-b689-4820c1ff75c7">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09be1fc8-2425-4cf9-9a51-4f64ab2ee227">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d83fc51-d9ef-4259-b1dc-5f0647e02b8c">
+          <AttributeID>Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce55bd25-c0bf-45b6-a0ff-6e9493fff02a">
+          <AttributeID>Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce430fca-52b6-4b3e-95f6-5b0986dc7d53">
+          <AttributeID>Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62f55ba3-574c-40a6-9f22-65df082389e8">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e9b320d-39a9-48fe-9e99-098773140d87">
+          <AttributeID>Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5511fae-ea78-479d-9afe-1ddaa651888b">
+          <AttributeID>Day Of Week</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="31026a47-bd72-4b09-a337-a708a081fe68">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3903866b-7ddb-42f9-8685-0ed3e6793b8e">
+          <AttributeID>Month Of Year 1</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fb1044e-e981-4859-996a-b012aba2731e">
+          <AttributeID>The Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fb89509e-7af1-479c-ad3b-08c4e4805e8a">
+          <AttributeID>The Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="364682f8-52a0-4574-bcd1-d6515aea5968">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="308112e6-385e-498a-95d6-f0001f8b3262">
+      <ID>Vendor</ID>
+      <Name>Vendor</Name>
+      <DimensionID>Vendor</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4ed0717f-6700-43fc-b5b5-0e707652b4f7">
+          <AttributeID>Vendor Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="728283ed-d500-4caa-adc6-93dd9aa4db92">
+      <ID>CPU</ID>
+      <Name>CPU</Name>
+      <DimensionID>CPU</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="11b73bb8-9801-4998-a853-977781f4b1e1">
+          <AttributeID>CPU Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2cf1d877-8b87-409d-af6e-2202e4f878ea">
+          <AttributeID>Brand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0612a14c-8148-4554-a20b-15490e1af6c2">
+          <AttributeID>Series</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="553f7c3b-de70-4275-abf3-8fb22ec2fcb3">
+          <AttributeID>Number Of Cores</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4467f2a6-c2fd-4b98-9977-162aa2135d73">
+          <AttributeID>Socket</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74f2b785-5e50-4124-8efc-6d1850f354c1">
+          <AttributeID>Brand 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d935564-0d22-4880-9df8-09cb2315fa4b">
+          <AttributeID>Socket 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0173a999-76a2-4719-8421-a1875ad858fd">
+          <AttributeID>Series 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b1aa27e6-c3c5-4b37-aa6b-78b51b93e14c">
+          <AttributeID>Cpu Name 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e66cbf8-289d-476e-b2d1-8321cf1d2a5a">
+          <AttributeID>Brand 2</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="15ce4299-3368-44b1-a572-fbb67f344c1d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="686cbc22-73d3-4e1e-8596-de12503d4413">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d1bd5b3e-3e6b-4f88-bad0-c1732225b5eb">
+      <ID>Geography</ID>
+      <Name>Geography</Name>
+      <DimensionID>Geography</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="94951f6e-09ef-46da-b9b9-766a19379c95">
+          <AttributeID>Geo Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1af2ba64-abdb-4349-ac19-2fec369902a3">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c981395a-8172-440a-a934-381c81ee93c1">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bd83489-83c0-4fba-9843-77ba465238f0">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc3d25aa-de82-4aaf-9b3e-1598554c7dee">
+          <AttributeID>Currency</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ad62c56-5525-4ae3-862a-b35fea9a2259">
+          <AttributeID>Region 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="56717c51-99ea-49c4-8c5a-61766f0c6ae6">
+          <AttributeID>Country 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d59c69ab-d1c5-4f71-97ac-3127029c5484">
+          <AttributeID>Continent 1</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="59148f7d-bbd2-433b-8c74-9ba0aa281f2a">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8b2ec9f1-864b-4a6d-8ccd-bd7fccef41c9">
+      <ID>Cpu Sales Fact</ID>
+      <Name>Cpu Sales Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="4e81c1a6-9d16-42fc-b06a-6a474f9a0496">
+          <ID>Sales Usd</ID>
+          <Name>Sales Usd</Name>
+          <Source dwd:design-time-name="13a7f86d-0db5-4c1f-b763-40717f82109a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="75a93e34-802a-405f-9757-695b623a87fd">
+              <TableID>simonediluna_cpu_sales_fact</TableID>
+              <ColumnID>sales_usd</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="39b3e1f4-bd63-4ee0-b472-9c3c1b97c331">
+          <ID>Sales Currency</ID>
+          <Name>Sales Currency</Name>
+          <Source dwd:design-time-name="f147b9e9-b0cf-4069-8d53-b15346ec9e25">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="21ef2d76-d8cd-47dc-b557-b754fc4fe313">
+              <TableID>simonediluna_cpu_sales_fact</TableID>
+              <ColumnID>sales_currency</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="12101d0c-379e-43f9-a88c-dd8737d41fd4">
+          <ID>Cost</ID>
+          <Name>Cost</Name>
+          <Source dwd:design-time-name="ea24b06e-df12-4867-8dce-cc1d2a253318">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="cde52059-3ed6-4abd-abae-8a09685e046e">
+              <TableID>simonediluna_cpu_sales_fact</TableID>
+              <ColumnID>cost</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Currency</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="0156d2ba-33f0-46cf-a9d4-61fdd98c8559">
+          <ID>Cpu Sales Fact Count</ID>
+          <Name>Cpu Sales Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="086f7c5f-28d7-4580-85ae-1e16478cc016">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="14524d99-95de-4718-b716-f26424c2f4a6">
+              <TableID>simonediluna_cpu_sales_fact</TableID>
+            </Source>
+          </Source>
+          <FormatString>Standard</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d388ca5c-0b8f-4d3c-9101-8886c6545a7f">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="56228373-3240-47d2-a872-b39f4a9705aa">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1fa87899-5ba9-4b00-9e2d-4b3f5336f857">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d8c647e-f4bf-405a-8302-217d828fed2d">
+                    <TableID>simonediluna_cpu_sales_fact</TableID>
+                    <ColumnID>time_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="21f936a9-3a21-40f1-b44c-729472158ec5">
+          <CubeDimensionID>Vendor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="71dd5788-e362-48b8-a10e-64fb0c76e087">
+              <AttributeID>Vendor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5bdf6f4c-5bcb-4a98-87c8-8f51b0f1fa0b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="62504061-ada7-4f6a-83bf-76490ab994fd">
+                    <TableID>simonediluna_cpu_sales_fact</TableID>
+                    <ColumnID>vendor_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a6e97697-1ad2-453d-8f2a-4555c8d1e0c3">
+          <CubeDimensionID>CPU</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ed0656a6-201c-43c0-a82c-35294cda76d9">
+              <AttributeID>CPU Name</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4ca50109-b69c-4eb3-8d52-051f5822843c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dd972fd5-3fd5-4104-bba0-c35b7d0d29c6">
+                    <TableID>simonediluna_cpu_sales_fact</TableID>
+                    <ColumnID>cpu_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="af248c48-1559-473d-99dc-2a546891c526">
+          <CubeDimensionID>Geography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0391f349-6985-41b1-9c61-409bac975594">
+              <AttributeID>Geo Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="647cde95-1918-4050-82ed-112495f6e667">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a3004588-866b-4c54-83c6-678539349a9d">
+                    <TableID>simonediluna_cpu_sales_fact</TableID>
+                    <ColumnID>geo_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ac2b3932-ea38-4b68-b344-f6879876047f">
+      <ID>Vendor</ID>
+      <Name>Vendor</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="44f2f295-1625-45e4-aff6-6c988ba97dd8">
+          <ID>Vendor Id</ID>
+          <Name>NVendors</Name>
+          <Description>Distinct number of vendors</Description>
+          <AggregateFunction>DistinctCount</AggregateFunction>
+          <Source dwd:design-time-name="c9f9bf60-8894-4412-b666-a41737878963">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6789b25a-3c10-4416-b04f-8074fc8969eb">
+              <TableID>simonediluna_vendor</TableID>
+              <ColumnID>vendor_id</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Standard</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f61f7121-8597-4837-a337-974388fc79e3">
+          <CubeDimensionID>Vendor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3f7c5260-407e-47fd-9974-343517c133ec">
+              <AttributeID>Vendor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1b3312c2-56b4-4a42-8a5c-c3d064ffc560">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="71fb895f-3553-45ac-ba5e-cc01030952e2">
+                    <TableID>simonediluna_vendor</TableID>
+                    <ColumnID>vendor_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f5ae4990-7291-4e40-a21d-6eb6f6ace227">
+    <DataSourceViewID>Simonediluna DB</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="523860da-0b33-4d1a-b184-3fc28cc5d529">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Gross Profit]
+ AS [Measures].[Sales Usd]-[Measures].[Cost], 
+FORMAT_STRING = "Currency", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Cpu Sales Fact';   
+CREATE MEMBER CURRENTCUBE.[Measures].[Margin]
+ AS ([Measures].[Sales Usd]-[Measures].[Cost]) / [Measures].[Sales Usd], 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Cpu Sales Fact'  ;   
+CREATE MEMBER CURRENTCUBE.[Measures].[Markup]
+ AS ([Measures].[Sales Usd]-[Measures].[Cost]) / [Measures].[Cost], 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'Cpu Sales Fact'  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

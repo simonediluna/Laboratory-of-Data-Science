@@ -1,0 +1,45 @@
+/* Global calculated member */
+CREATE MEMBER [CPU Sales].[Measures].[Profit] AS 
+	[Measures].[Sales Usd] - [Measures].[Cost];
+
+/* Method 1: PREVMEMBER */
+WITH MEMBER [% Profit Variation] AS
+	([Profit] - ([Time].[Year].PREVMEMBER, [Profit])) 
+		/ ([Time].[Year].PREVMEMBER, [Profit]),
+	FORMAT_STRING = 'Percent'
+SELECT 
+	[% Profit Variation] ON 0,
+	([CPU].[Brand].[Brand], [Time].[Year].[Year]) ON 1
+FROM [CPU Sales];
+
+/* Method 2: LAG */
+WITH MEMBER [% Profit Variation] AS
+	([Profit] - ([Time].[Year].CURRENTMEMBER.LAG(1), [Profit]))
+		/ ([Time].[Year].CURRENTMEMBER.LAG(1), [Profit]),
+	FORMAT_STRING = 'Percent'
+SELECT 
+	[% Profit Variation] ON 0,
+	([CPU].[Brand].[Brand], [Time].[Year].[Year]) ON 1
+FROM [CPU Sales];
+
+/* Method 3: PARALLELPERIOD */
+WITH 
+	MEMBER [Profit Prev Year] AS 
+		(
+			PARALLELPERIOD(
+				[Time].[Calendar].[Year], 
+				1, 
+				[Time].[Calendar].CURRENTMEMBER
+			),
+			[Profit]
+		)
+	MEMBER [% Profit Variation] AS
+		([Profit] - [Profit Prev Year]) / [Profit Prev Year],
+		FORMAT_STRING = 'Percent'
+SELECT 
+	[% Profit Variation] ON 0,
+	([CPU].[Brand].[Brand], [Time].[Calendar].[Year]) ON 1
+FROM [CPU Sales];
+
+/* Delete global member */
+DROP MEMBER [CPU Sales].[Measures].[Profit];

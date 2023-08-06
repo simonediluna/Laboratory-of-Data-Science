@@ -1,0 +1,388 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3cd70811-eadb-47e4-a22b-82f507658086" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CPU</ID>
+  <Name>CPU</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3626" scrolltop="-5266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11007" y="21855" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="cpu_product" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="simonediluna_cpu_product" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3626</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5266</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="138">
+            <Shape Id="CPU Name" Expanded="true">
+              <Attributes>
+                <Attribute Id="CPU Name" />
+                <Attribute Id="Brand 2" />
+                <Attribute Id="Cpu Name 1" />
+                <Attribute Id="Number Of Cores" />
+                <Attribute Id="Series 1" />
+                <Attribute Id="Socket 1" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Socket" Expanded="true">
+              <Attributes>
+                <Attribute Id="Socket" />
+              </Attributes>
+              <Position x="197" y="20" />
+            </Shape>
+            <Shape Id="Brand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand" />
+              </Attributes>
+              <Position x="375" y="20" />
+            </Shape>
+            <Shape Id="Series" Expanded="true">
+              <Attributes>
+                <Attribute Id="Series" />
+              </Attributes>
+              <Position x="197" y="68" />
+            </Shape>
+            <Shape Id="Brand 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand 1" />
+              </Attributes>
+              <Position x="375" y="68" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="2f316393-ae50-4f3a-96a3-d67a209b560a">
+    <DataSourceViewID>Simonediluna DB</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3bf288a9-ee54-43a0-a9e5-5ae02c7b7a0b">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="22864338-5828-4efa-a4d8-35f6585ccf14">
+      <ID>CPU Name</ID>
+      <Name>CPU Name In Hierarchies</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3866b4d2-1317-4704-8c90-d1ba8ff5c888">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a73581d2-35a1-4cc6-863f-7ba93ee64da3">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>cpu_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e8e4c4bd-774a-4046-b421-263dddf30b08">
+        <DataType>WChar</DataType>
+        <DataSize>39</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9b77a645-0868-4944-8b00-bbaf1fc7cf8d">
+          <TableID>simonediluna_cpu_product</TableID>
+          <ColumnID>cpu_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="aab2e0d1-0cdd-4dc7-bd14-e013a08a77ca">
+          <AttributeID>Series</AttributeID>
+          <Name>Series In Hierarchy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1fb74ebf-5b89-4a5b-a79a-171c20e42258">
+          <AttributeID>Number Of Cores</AttributeID>
+          <Name>Number Of Cores</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2991fc0c-ad03-47d5-a1a3-c9dc29f9e8f3">
+          <AttributeID>Socket</AttributeID>
+          <Name>Socket In Hierarchy</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b546aa84-55fe-4d9e-b365-d1305d728672">
+          <AttributeID>Socket 1</AttributeID>
+          <Name>Socket</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="13ca929d-0919-4b98-a40a-eedeec31eadb">
+          <AttributeID>Series 1</AttributeID>
+          <Name>Series</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9dccbfb1-45d0-4f00-98f5-01d90a9a008f">
+          <AttributeID>Cpu Name 1</AttributeID>
+          <Name>CPU Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1f4441ba-375b-496b-8f4e-f9099583e9cf">
+          <AttributeID>Brand 2</AttributeID>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5155492e-6b10-41a3-a33b-abaa3a2a011c">
+      <ID>Brand</ID>
+      <Name>Brand Of Socket</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c692ab69-b002-418f-9874-eda3bfa7e144">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37b90133-aaac-4934-bfdf-279ed764afae">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe24063c-212f-4eb7-b321-1638ece0cfa6">
+      <ID>Series</ID>
+      <Name>Series In Hierarchy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be08b25e-65b1-4121-9e29-f7f007f64918">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aac673ca-71d6-4b91-908b-6a1a6b4877c2">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>series</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="db5fb38f-7ac0-4497-9856-26f8a68d5c7d">
+          <AttributeID>Brand 1</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Brand Of Series</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="38f32abf-568d-4235-80e4-7043b04b4885">
+      <ID>Number Of Cores</ID>
+      <Name>Number Of Cores</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aff2a089-8c45-4c58-a733-26c636c0b77c">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00974f2a-02ad-40f8-a158-a83ff710c412">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>n_cores</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0527ffa7-f625-4610-87f6-6c7297ad9203">
+      <ID>Socket</ID>
+      <Name>Socket In Hierarchy</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="154acdb3-24a7-4719-884c-a96d0514f9f0">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="459a2ad2-4961-4218-80e4-54e34576f503">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>socket</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f4c861a7-ddf5-44d4-b031-5ed3d08ad85d">
+          <AttributeID>Brand</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Brand Of Socket</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9802b2f2-6012-43d5-a7e6-d819d6c5a436">
+      <ID>Brand 1</ID>
+      <Name>Brand Of Series</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05a7eec5-c98e-40fd-91e0-d3b70ae0b393">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cef7b6c9-508e-498b-9e0d-321e6e8539da">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7004f153-4f13-4a01-a01a-1e7a1549aab7">
+      <ID>Socket 1</ID>
+      <Name>Socket</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07dd6b8b-5d33-40e4-870c-c0e3969734ef">
+          <DataType>WChar</DataType>
+          <DataSize>12</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e80f924d-efd1-4bb7-8973-c90caca849f8">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>socket</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1a06bb3-097a-44f6-8f5b-ede1f3982936">
+      <ID>Series 1</ID>
+      <Name>Series</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97667714-4b21-4192-ad1d-8d50a928176a">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32d89407-9837-4523-b0ea-a950acee7895">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>series</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4dcba80c-5b96-4c10-87a4-2f8251c2362a">
+      <ID>Cpu Name 1</ID>
+      <Name>CPU Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a6e9542e-9305-4241-b961-dd9053a90e17">
+          <DataType>WChar</DataType>
+          <DataSize>39</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="34bf6a38-68d5-461d-ac8d-ea5b8fc4fa92">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>cpu_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f96ca0c9-4ae1-401c-a109-e9bed241d7f3">
+      <ID>Brand 2</ID>
+      <Name>Brand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4f384853-85ee-4501-8cf0-796ed6612f12">
+          <DataType>WChar</DataType>
+          <DataSize>7</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7344c14a-47a7-4429-9518-ab0d77e33587">
+            <TableID>simonediluna_cpu_product</TableID>
+            <ColumnID>brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c6a9e4f9-bd40-46e6-b029-715fe50ae280">
+      <ID>Hierarchy</ID>
+      <Name>BrandSeriesCpu</Name>
+      <Levels>
+        <Level dwd:design-time-name="6c1770b0-47fb-4cc7-bd3b-75c81132c671">
+          <ID>Brand Of Series</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="530fed3d-0488-4160-bb06-6f308b98d4ba">
+          <ID>Series</ID>
+          <Name>Series</Name>
+          <SourceAttributeID>Series</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="07a1ef55-7e4b-47a5-a5bc-63b814521209">
+          <ID>CPU Name</ID>
+          <Name>CPU Name</Name>
+          <SourceAttributeID>CPU Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="4f507aa2-f720-4a60-840a-eed43b86e5d1">
+      <ID>Hierarchy 1</ID>
+      <Name>BrandSocketCpu</Name>
+      <Levels>
+        <Level dwd:design-time-name="2a4f5078-aa34-4603-b07f-bf30b8d96022">
+          <ID>Brand Of Socket</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4d45eead-84a3-47e1-adc4-0e0dcb71773c">
+          <ID>Socket</ID>
+          <Name>Socket</Name>
+          <SourceAttributeID>Socket</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a2986e1d-7e5d-4c52-bd05-b6bcd7d117a6">
+          <ID>CPU Name</ID>
+          <Name>CPU Name</Name>
+          <SourceAttributeID>CPU Name</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

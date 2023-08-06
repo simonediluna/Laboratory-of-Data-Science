@@ -1,0 +1,12 @@
+Dal momento che alcuni programmi importano funzioni create in altri file, dovrebbe essere più facile analizzare gli script seguendo lo stesso ordine con il quale li ho creati:
+
+1. preliminary_analysis.py
+2. fact_table_transformations.py
+3. time_transformations.py
+4. cpu_transformations.py
+5. vendor_transformations.py
+6. fill_dim_tables.py
+7. fill_fact_table.py
+
+Note: Inizialmente avevo inserito il random.seed() direttamente all'interno della funzione compute_cost. Questo ha fatto sì che la funzione generasse ad ogni chiamata lo stesso markup. Di conseguenza 
+nel database sul server lds il costo è una percentuale fissa del ricavo di vendita. Questo bug nel codice è stato risolto spostando il random.seed() nella main function, tuttavia non ho aggiornato il database dato che ricaricare nuovamente tutti i dati avrebbe richiesto troppo tempo. In ogni caso il codice aggiornato è stato testato su una versione locale del database e funziona correttamente.
