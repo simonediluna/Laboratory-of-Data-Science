@@ -18,8 +18,6 @@ Among the tools used are:
 * Interactive Dashboard Creation: The project concludes with the development of an interactive dashboard that provides insightful data visualizations, charts, and graphs derived from the Data Cube.
 
 ## Figures 
-<img src="./Figures/diagram.pdf"> <br><br><br><br>
-
-<img src="./Figures/SSIS_pipeline.pdf"> <br><br><br><br>
-
-<img src="./Figures/dashboard.pdf">
+<img src="./Figures/diagram.svg"> <br><br><br><br>
+<img src="./Figures/dashboard.svg"> <br><br>
+<img src="./Figures/SSIS_pipeline.svg">
