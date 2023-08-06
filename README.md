@@ -3,9 +3,9 @@ This repository houses a data science project carried out as part of the "Data S
 
 Among the tools used are: 
 
-<img src="./Figures/visual_studio.svg" width="1cm"><img src="./Figures/python-logo.svg" width="1cm"> <img src="./Figures/visual_studio.svg" width="1cm"> <img src="./Figures/powerbi-logo.svg" width="1cm">
+<img src="./Figures/sql-server-logo.svg" width="80"><img src="./Figures/python-logo.svg" width="55"> <img src="./Figures/visual_studio.svg" width="65"> <img src="./Figures/powerbi-logo.svg" width="65">
 
-## Key Tasks summarized:
+## Key Tasks summarized
 
 * Data Warehouse Construction and Population: Designing and implementing a robust data warehouse architecture. This involved several steps, such as selecting an appropriate data modeling technique (star schema), creating auxiliary data structures to improve performance, and transforming raw data from various CSV files into a centralized data repository.
 
@@ -15,4 +15,11 @@ Among the tools used are:
 
 * MDX Query Execution: Leveraging the MOLAP cube to answer a business question using the Multidimensional Expressions query language.
 
-* Interactive Dashboard Creation: The project concludes with the development of an interactive dashboard that provides insightful data visualizations, charts, and graphs derived from the Data Cube. 
+* Interactive Dashboard Creation: The project concludes with the development of an interactive dashboard that provides insightful data visualizations, charts, and graphs derived from the Data Cube.
+
+## Figures 
+<img src="./Figures/diagram.pdf"> <br><br><br><br>
+
+<img src="./Figures/SSIS_pipeline.pdf"> <br><br><br><br>
+
+<img src="./Figures/dashboard.pdf">
